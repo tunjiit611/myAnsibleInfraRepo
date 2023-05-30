@@ -1,12 +1,12 @@
 ---
  - name: provisioning a new EC2 using Ansible playbook
-   ansible_python_interpreter: /usr/local/lib/python3.10/dist-packages
    hosts: localhost
    connection: local
    gather_facts: False
    tags: provisioning
 
    vars:
+     ansible_python_interpreter: /usr/local/lib/python3.10/dist-packages
      keypair: jenkinskey
      instance_type: t2.micro
      image: ami-053b0d53c279acc90
