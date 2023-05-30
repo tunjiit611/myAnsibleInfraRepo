@@ -1,6 +1,6 @@
 ---
-  ansible_python_interpreter: /usr/local/lib/python3.10/dist-packages
  - name:  provisioning a new EC2 using Ansible playbook
+   ansible_python_interpreter: /usr/local/lib/python3.10/dist-packages
    hosts: localhost
    connection: local
    gather_facts: False
