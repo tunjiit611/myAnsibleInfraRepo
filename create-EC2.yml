@@ -14,17 +14,15 @@
      count: 1
      region: us-east-1
      security_group: ec2-security-group
-     
-   tasks:
    
-      - name: Install requests python package
+   tasks:
+
+     - name: Install requests python package
         pip:
-      - name: requests
+     - name: requests
         vars:
         ansible_python_interpreter: /usr/bin/python3
 
-   
-   tasks:
 
      - name: Create a security group
        local_action: 
