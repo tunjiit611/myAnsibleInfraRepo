@@ -6,7 +6,7 @@
    tags: provisioning
 
    vars:
-     keypair: jenkinskey
+     keypair: mackeys
      instance_type: t2.micro
      image: ami-053b0d53c279acc90
      wait: yes
