@@ -18,10 +18,10 @@
    tasks:
 
      - name: Install requests python package
-        pip:
-     - name: requests
-        vars:
-        ansible_python_interpreter: /usr/bin/python3
+       pip:
+         name: requests
+       vars:
+          ansible_python_interpreter: /usr/bin/python3
 
 
      - name: Create a security group
